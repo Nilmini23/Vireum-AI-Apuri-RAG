@@ -1,0 +1,8 @@
+1️. Open Command Prompt and navigate to your project folder
+cd "D:\HAMK\Year 3\ICT\Vireum AI Rag Chatbot"
+
+2️. Activate your virtual environment
+vireum_env\Scripts\activate
+
+3️. Run the Streamlit app again
+streamlit run vireum_ai_apuri_rag.py
