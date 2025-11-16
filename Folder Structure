@@ -1,20 +1,14 @@
 Vireum AI Rag Chatbot/
 │
-├── vireum_env/                 # Your virtual environment (do not modify inside)
+├── vireum_env/                       # virtual environment (do not modify inside)
 │
 ├── data/
-│   └── users.csv               # Saved user data (created automatically)
+│   └── users.csv                     # Saved user data (created automatically)
 │
-├── vireum_embeddings.npy   # Cached embeddings from PDF/text
+├── docs/
+│   └── Vireum_Vision_AI.docx         # DOCX document used for RAG knowledge base
+
+├── embeddings.npy                     # Cached embeddings from /text(auto-generated)
 │
-├── Vireum_Vision_AI.pdf    # Your source document for RAG
-│
-├── google_calendar.py           # Optional helper for Google Calendar integration
-│
-├── vireum_ai_apuri_rag.py      # Main Streamlit chatbot + RAG script
-│
-├── requirements.txt            # Optional: list of all Python dependencies
-│
-├── README.md                   # Project description / instructions
-│
-└── .gitignore                  # Optional if using Git
+├── chunks.npy                         # Cached text chunks corresponding to embeddings (auto-generated)
+├── vireum_ai_apuri_rag.py              # Main Streamlit chatbot + RAG script
